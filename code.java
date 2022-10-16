@@ -14,7 +14,9 @@ public class CodesCracker
       float t = s.nextFloat();
       System.out.print("Enter the Value of n: ");
       float n = s.nextFloat();
-    
+      
+      float amount = p * (float)Math.pow(1 + (r/n), (n*t));
+      float ci = amount - p;
       
       System.out.println("\nAmount = " +amount);
       System.out.println("Compound Interest = " +ci);
